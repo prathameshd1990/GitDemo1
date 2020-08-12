@@ -27,6 +27,11 @@ public class ValidateNavigationBarTest extends base{
 		Assert.assertTrue(stPage.getNavigationBar().isDisplayed());
 	}
 	
+	@Test
+	public void validateLogo() {
+		System.out.println("Logo Validation");
+	}
+	
 	@AfterTest
 	public void tearDown() {
 		driver.close();
