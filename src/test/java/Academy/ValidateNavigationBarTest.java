@@ -31,6 +31,14 @@ public class ValidateNavigationBarTest extends base{
 	public void validateLogo() {
 		System.out.println("Logo Validation");
 	}
+	@Test
+	public void validateLogo2() {
+		System.out.println("Logo Validation");
+	}
+	@Test
+	public void validateLogo3() {
+		System.out.println("Logo Validation");
+	}
 	
 	@AfterTest
 	public void tearDown() {
