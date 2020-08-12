@@ -64,6 +64,11 @@ public class E2EMechanismTest extends base{
 		return data;
 	}
 	
+	@Test(priority=0)
+	public void validateTitleTest() {
+		System.out.println(driver.getTitle());
+	}
+	
 	@AfterTest
 	public void tearDown() {
 		driver.close();

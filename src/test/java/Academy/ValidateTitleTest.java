@@ -37,6 +37,11 @@ public class ValidateTitleTest extends base{
 		System.out.println("Validating Checkbox presence");
 	}
 	
+	@Test
+	public void validateScrollDown() {
+		System.out.println("Write Javascript code here");
+	}
+	
 	@AfterTest
 	public void tearDown() {
 		driver.close();

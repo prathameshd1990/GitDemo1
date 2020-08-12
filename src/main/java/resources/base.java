@@ -42,6 +42,8 @@ public class base {
 		// Defining the timeout for how many seconds the application should wait before 
 		// giving timeout
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies();
 		
 		return driver;
 	}
