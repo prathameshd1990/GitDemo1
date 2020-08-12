@@ -30,7 +30,12 @@ public class ValidateTitleTest extends base{
 		// compare the text from startupPage and compare if same pass the test if not fail the test
 		Assert.assertEquals(stPage.getTitle().getText(), "Featured Courses");
 		log.info("Hello");
-		}
+	}
+	
+	@Test
+	public void validateCheckbox() {
+		System.out.println("Validating Checkbox presence");
+	}
 	
 	@AfterTest
 	public void tearDown() {
